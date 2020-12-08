@@ -1,3 +1,110 @@
 @import "fonts.css";
 @import "mobile.css";
 @import "base.css";
+@import "effects.css";
+
+.header{
+    width: 100%;
+    height: 737px;
+    background-image: url('/assets/images/header_bakcground.png');
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+}
+.header_nav_container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 116px;
+}
+.header_logo{
+    position:relative;
+    width: 5%;
+    height: 72px;
+    background-image: url("/assets/images/header_logo.svg");
+    background-repeat: no-repeat;
+    margin-left: 245px;
+}
+.header_logo_text{
+    position: relative;
+    width: 100%;
+    height: 26px;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Roboto';
+    margin-left: 93px;
+    margin-top: 22px;
+}
+.header_nav{
+    position: relative;
+    width: 35.5%;
+    margin-left: 213px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+.header_nav li{
+    display: inline-block;
+    margin: 0px 0px 0px 40px;
+}
+.header_nav a{
+    color: #717784;
+    border: 1px solid transparent;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+#icon{
+    font-size: 30px;
+}
+.nav_btn{
+    position: relative;
+    border-radius: 10px;
+    border:none;
+    background-color:#9B9BCA;
+    width: 16.6%;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    font-family: 'Poppins';
+    margin-left: 18px;
+}
+.header_title{
+    position: relative;
+    width: 34.25%;
+    height: 112px;
+    margin-left: 245px;
+    margin-top: 218px;
+    font-size: 56px;
+    line-height: 100%;
+    font-family: 'DM Serif Display';
+    color: #696A86;
+}
+.header_title_text{
+    position: relative;
+    width: 46.9%;
+    height: 81px;
+    margin-top: 30px;
+    margin-left: 245px;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Poppins';
+    color: #696A86;
+}
+.header_get_started{
+    position: relative;
+    width: 6.5%;
+    margin-left: 245px;
+    margin-top: 30px;
+    padding: 20px 65px;
+    background-color: #9B9BCA;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Poppins';
+}
+#icon{
+    display:none;
+}

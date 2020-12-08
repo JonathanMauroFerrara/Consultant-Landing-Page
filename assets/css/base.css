@@ -1,5 +1,13 @@
 html,body{
-    width: 1440px;
+    width: 1600px;
     margin: 0 auto;
-    
 }
+
+.pointer{
+    cursor: pointer;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+  }

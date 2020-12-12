@@ -12,3 +12,11 @@ html,body{
     list-style: none;
     text-decoration: none;
   }
+
+  .absolute{
+      position:absolute;
+  }
+  .avatar_width{
+      width: 97px;
+      height: 97px;
+  }

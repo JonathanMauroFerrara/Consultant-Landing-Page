@@ -105,7 +105,6 @@ html,body{
 .service{
     height: 1700px;
     justify-content: center;
-    background-color: ;
 }
 .service_title{
     width: 50.56%;
@@ -163,5 +162,69 @@ html,body{
     text-align: center;
     font-family: 'Poppins';
     color: #626780;
+}
+.support{
+    height: 1000px;
+    flex-direction: column;
+    background-color: lightgreen;
+}
+.support_container{
+    margin-left: 0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.support_title{
+    width: 60.56%;
+    height: 120px;
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+.support_title_text{
+    width: 70.6%;
+    height: 200px;
+    margin-top: 60px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+}
+.support_schema_bg{
+    position: relative;
+    background-image: url(/assets/images/avatar_support_24-7.svg);
+    background-size: cover;
+    width:375px;
+    height: 400px;
+    margin-left: 0px;
+}
+.avatar_width{
+    width: 50px;
+    height: 50px;
+}
+.support_avatar_1{
+    top: 0px;
+    left: 0px;
+}
+.support_avatar_2{
+    left: 0px;
+    top: 0px;
+}
+.support_avatar_3{
+    left: 0px;
+    top: 0px;
+}
+.support_avatar_4{
+    left: 0px;
+    top: 0px;
+}
+.support_avatar_5{
+    left: 0px;
+    top: 0px;
+}
+.support_avatar_6{
+    left: 0px;
+    top: 0px;
 }
 }

@@ -164,18 +164,20 @@ html,body{
     color: #626780;
 }
 .support{
-    height: 1000px;
+    height: 800px;
     flex-direction: column;
-    background-color: lightgreen;
+    justify-content: space-between;
 }
 .support_container{
+    width: 100%;
+    height: 250px;
     margin-left: 0px;
     display:flex;
     flex-direction: column;
     align-items: center;
 }
 .support_title{
-    width: 60.56%;
+    width: 70.56%;
     height: 120px;
     margin-top: 50px;
     font-size: 30px;
@@ -191,40 +193,43 @@ html,body{
     line-height: 40px;
     text-align: center;
 }
+.support_schema{
+    width:100%;
+    margin-left: 0px;
+    top: -100px;
+    height: 320px;
+}
 .support_schema_bg{
     position: relative;
-    background-image: url(/assets/images/avatar_support_24-7.svg);
-    background-size: cover;
-    width:375px;
-    height: 400px;
-    margin-left: 0px;
+    width: 100%;
+    height: 450px;
 }
 .avatar_width{
     width: 50px;
     height: 50px;
 }
 .support_avatar_1{
-    top: 0px;
-    left: 0px;
+    top: 190px;
+    left: 5px;
 }
 .support_avatar_2{
-    left: 0px;
-    top: 0px;
+    left: 70px;
+    top: 120px;
 }
 .support_avatar_3{
-    left: 0px;
-    top: 0px;
+    left: 140px;
+    top: 50px;
 }
 .support_avatar_4{
-    left: 0px;
-    top: 0px;
+    left: 150px;
+    top: 240px;
 }
 .support_avatar_5{
-    left: 0px;
-    top: 0px;
+    left: 290px;
+    top: 260px;
 }
 .support_avatar_6{
-    left: 0px;
-    top: 0px;
+    left: 320px;
+    top: 70px;
 }
 }

@@ -185,6 +185,7 @@
     width: 32%;
     height: 175px;
     margin-left: 245px;
+    color: #626780;
 }
 .support_title{
     position:relative;
@@ -200,6 +201,7 @@
     position: relative;
     width: 91%;
     height: 120px;
+    margin-top: 16px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: normal;

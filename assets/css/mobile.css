@@ -232,4 +232,22 @@ html,body{
     left: 320px;
     top: 70px;
 }
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video_title{
+    width: 73%;
+    height: 100px;
+    margin-left: 0px;
+    font-size: 30px;
+    line-height: 140%;
+    text-align: center;
+}
+.video_file{
+    margin-top: 50px;
+    width: 375px;
+    height: 200px;
+}
 }

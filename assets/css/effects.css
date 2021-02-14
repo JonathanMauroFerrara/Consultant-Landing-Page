@@ -15,3 +15,10 @@
     box-shadow: inset 0px -3px 0px 1px rgba(196, 196, 196, 1);
     margin-top: -2px;
 }
+
+.Q_and_A_content .Q_and_A_content-box.active .content{
+    height: 160px;
+}
+.Q_and_A_content .Q_and_A_content-box.active .label::before{
+    content: url(/assets/images/question_open_arrow.svg);
+}

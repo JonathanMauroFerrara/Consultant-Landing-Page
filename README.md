@@ -30,4 +30,3 @@ HTML, CSS, Javascript.
 
 ### Deploy
 work in progress...
-[Sport Live](https://gifted-newton-79daca.netlify.app/)
